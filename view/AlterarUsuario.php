@@ -20,13 +20,15 @@
 
     <form action="" method="POST">
         <h2>Alterar Usuário</h2>
-        <input type="text" value="<?php 
-                                    foreach($nome_usuario as $elem){ 
-                                        if($_GET['id'] == $elem['id_usuario']){
-                                            echo (string) $elem['nome'];
-                                        }
-                                    }  
-                                    ?>" placeholder="Nome" name="nome" id="nome" required /><br><br>
+        <input type="text" 
+        value="<?php 
+                    foreach($nome_usuario as $elem){ 
+                        if($_GET['id'] == $elem['id_usuario']){
+                            echo (string) $elem['nome'];
+                        }
+                    }  
+                ?>"
+        placeholder="Nome" name="nome" id="nome" required /><br><br>
         <button type="submit">Enviar</button>
         <button><a href="../view/ListarUsuario.php">Voltar</a></button>
     </form>
