@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Lista de Tarefas - Usuários</title>
 </head>
 <body>
     <h2>Lista de Usuários</h2>
 
-    <button><a href="../view/InserirUsuario.php">Novo Usuário</a></button><br><br>
+    <a href="../view/InserirUsuario.php" class="btn btn-success">Novo Usuário</a><br><br>
 
     <?php
 
@@ -34,8 +35,8 @@
                     <tr>
                         <td>" . $elem['id_usuario'] . "</td>
                         <td>" . $elem['nome'] . "</td>
-                        <td><button><a href='../view/AlterarUsuario.php?id=$id'>Alterar</a></button></td>
-                        <td><button><a href='../view/ExcluirUsuario.php?id=$id'>Excluir</a></button></td>
+                        <td><a href='../view/AlterarUsuario.php?id=$id' class=\"btn btn-warning\">Alterar</a></td>
+                        <td><a href='../view/ExcluirUsuario.php?id=$id' class=\"btn btn-danger\">Excluir</a></td>
                     </tr>";
 
             }
@@ -48,7 +49,7 @@
 
     ?>
     <br>
-    <button><a href="../view/index.php">Voltar</a></button>
-
+    <a href="../view/index.php" class="btn btn-primary">Voltar</a>
+    <script src="../vendor/twbs/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

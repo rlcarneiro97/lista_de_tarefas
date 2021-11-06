@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../vendor/twbs/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <title>Lista de Tarefas - Alterar Tarefa</title>
 </head>
 <body>
@@ -30,9 +31,9 @@
                 }
             ?>
         </select><br><br>
-        <button type="submit">Enviar</button>
-        <button><a href="../view/index.php">Voltar</a></button>
+        <button type="submit" class="btn btn-success">Enviar</button>
+        <a href="../view/index.php" class="btn btn-primary">Voltar</a>
     </form>
-
+    <link href="../vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 </body>
 </html>
