@@ -10,7 +10,7 @@
 
     <h2>Lista de Tarefas</h2>
     <a href="../view/InserirTarefa.php" class="btn btn-success">Nova Tarefa</a>
-    <a href="../view/ListarUsuario.php" class="btn btn-primary">Usuários</a><br><br>
+    <a href="../view/ListarUsuario.php" class="btn btn-outline-primary">Usuários</a><br><br>
 
     <?php
 

@@ -32,7 +32,7 @@
             ?>
         </select><br><br>
         <button type="submit" class="btn btn-success">Enviar</button>
-        <a href="../view/index.php" class="btn btn-primary">Voltar</a>
+        <a href="../view/index.php" class="btn btn-outline-primary">Voltar</a>
     </form>
     <link href="../vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 </body>
